@@ -29,6 +29,13 @@ body {
 	width:100%;
 	clear:both;
 }
+ #logo{
+	max-width: 200px;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+	
+  }
 
 #hero-image {
 	width: 100%;
@@ -83,7 +90,7 @@ footer {
 
 @media screen and (min-width: 1000px)
 {
-.fetured-work-container {
+#fetured-work-container {
 	margin: 1.5em auto;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -92,7 +99,7 @@ footer {
 
 @media screen and (max-width: 930px)
 {
-.fetured-work-container {
+#fetured-work-container {
 	flex-wrap: wrap;
 	justify-content: center;
 	}
@@ -100,7 +107,7 @@ footer {
 
 @media screen and (max-width: 550px)
 {
-.fetured-work-container {
+#fetured-work-container {
 	flex-wrap: wrap;
 	flex-direction:column;
 	justify-content: center;
